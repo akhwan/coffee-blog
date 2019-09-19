@@ -45,8 +45,45 @@ img{
             }
         }
         .nav-box-image{
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            position: relative;
+
+            .nav-box-image-description{
+                position: absolute;
+                top: 0;
+                padding: 10px;
+
+                .image-description{
+                    transition: opacity .7s ease;
+
+                    h2{
+                        font-size: 3em;
+                        margin-bottom: 5px;
+                    }
+                    .date{
+                        background: #fff;
+                        color: #141414;
+                        padding: 5px;
+                        font-weight: 900;
+                    }
+                }
+            }
+            .image-description{
+                opacity: 0;
+            }
         }
+        .nav-box-image:hover{
+            background: #141414;
+        }
+
+        .nav-box-image img:hover{
+            opacity: .3;
+        }
+
+        .nav-box-image:hover .image-description{
+            opacity: 1;
+        }
+
         #search{
             width: 60%;
             height: 30px;
@@ -54,6 +91,7 @@ img{
             padding: 4px;
         }
     }
+
     main{
         padding: 20px;
         overflow: auto;
@@ -78,6 +116,10 @@ img{
         p{
             width: 70%;
             font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #4b4949;
+            letter-spacing: .02em;
+            line-height: 1.3em;
         }
     }
 }
