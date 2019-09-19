@@ -71,6 +71,12 @@ img {
 #wrapper nav .nav-box-image {
   margin-bottom: 15px;
   position: relative;
+  height: calc(55vh - 190px);
+}
+
+#wrapper nav .nav-box-image img {
+  width: 100%;
+  height: 100%;
 }
 
 #wrapper nav .nav-box-image .nav-box-image-description {
