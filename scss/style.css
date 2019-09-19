@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: hidden;
+}
+
+#wrapper nav {
+  width: 28%;
+  height: 100vh;
+  padding: 20px;
+  background: #141414;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  z-index: 1;
+}
+
+#wrapper nav #box-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#wrapper nav #box-menu #ellipsis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 25px;
+}
+
+#wrapper nav #box-menu #ellipsis .ellipsis-circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 15px;
+  background: #fff;
+}
+
+#wrapper nav .nav-box-image {
+  margin-bottom: 10px;
+}
+
+#wrapper nav #search {
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+#wrapper main {
+  padding: 20px;
+  overflow: auto;
+  -webkit-transform: translateX(40%);
+          transform: translateX(40%);
+  width: 72%;
+}
+
+#wrapper main h1 {
+  font-size: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 70%;
+}
+
+#wrapper main h1 #date {
+  font-size: 15px;
+  color: #878787;
+}
+
+#wrapper main #main-image {
+  width: 70%;
+}
+
+#wrapper main p {
+  width: 70%;
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=style.css.map */
